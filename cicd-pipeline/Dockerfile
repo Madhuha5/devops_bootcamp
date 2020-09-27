@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-  
+
 VOLUME /tmp
 
 EXPOSE 9090
@@ -13,4 +13,3 @@ RUN echo "Creation of your docker image is in progress, please hold on for a mom
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 LABEL MAINTAINER "vihaanmadhuha@gmail.com"
-~                                          
